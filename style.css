@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rajdhani';
+}
+
+.main {
+    background-color: #16423C;
+    color: #C4DAD2;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+
+    &>*:not(.main:last-child) {
+        margin-bottom: 40px;
+    }
+
+    & h1,
+    p {
+        font-size: 50px;
+        font-weight: 600;
+    }
+
+    & h4,h6 {
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    & .input-box {
+        align-self: center;
+        width: min(90%, 350px);
+    }
+    & h6{
+        position: absolute;
+        bottom: 0;
+        right: 3%;
+    }
+}
+
+input {
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #16423C;
+    cursor: pointer;
+    position: relative;
+}
+
+.input-box input::-webkit-calendar-picker-indicator {
+    inset: 0;
+    position: absolute;
+    cursor: pointer;
+    width: auto;
+    height: auto;
+    background-position: calc(100% - 10px);
+    background-size: 30px;
+}
