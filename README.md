@@ -1,5 +1,7 @@
 # Live Age Calculator
 
+Never need any other motivation.
+
 Welcome to the Live Age Calculator repository! ⏳
 
 In a world where time is a precious commodity, knowing how old you are can be a powerful motivator.
@@ -22,7 +24,3 @@ Visit this link: [Live Age Calculator](https://visalan-h.github.io/Live-Age-Calc
 - **User-Friendly Interface**: Intuitive design for easy use.
 - **Motivational Reminder**: A reminder that time is running out and to make the most of every moment.
 
-## Additional Information
-
-- **Technology Used**: HTML, CSS, JavaScript
-- **Author**: Visalan H 
